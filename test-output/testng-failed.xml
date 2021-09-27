@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Trial(failed)">
+    <classes>
+      <class name="com.dk.project1.testCases.GoogleTest">
+        <methods>
+          <include name="ClassLevelSetUp"/>
+          <include name="NavigatetoGoogle2nd"/>
+          <include name="SuiteLevele"/>
+          <include name="NavigatetoGoogle"/>
+        </methods>
+      </class> <!-- com.dk.project1.testCases.GoogleTest -->
+    </classes>
+  </test> <!-- Trial(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

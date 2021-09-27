@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<suite name="Suite1" verbose="1" parallel="methods" thread-count = "5">
+  <test name="Trial" >
+    <classes>
+      <class name="com.dk.project1.testCases.FacebookTests" />
+      <class name="com.dk.project1.testCases.GoogleTest" />
+    </classes>
+  </test>
+</suite>
